@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos7kpb",
+    "Slug": "h3d-virtual-screening-cascade-light",
+    "Status": "In progress",
+    "Title": "H3D virtual screening cascade light",
+    "Description": "This panel of models provides predictions for the H3D virtual screening cascade. It leverages the Ersilia Compound Embedding and FLAML. The H3D virtual screening cascade contains models for Mycobacterium tuberculosis and Plasmodium falciparum IC50 predictions, as well as ADME, cytotoxicity and solubility assays",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,16 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Malaria",
+        "P.falciparum",
+        "Tuberculosis",
+        "M.tuberculosis",
+        "ADME",
+        "Cytotoxicity",
+        "Solubility"
+    ],
+    "Publication": "https://www.biorxiv.org/content/10.1101/2022.12.13.520154v1",
+    "Source Code": "https://github.com/ersilia-os/h3d-screening-cascade-models",
+    "License": "GPLv3"
 }
