@@ -2,6 +2,8 @@ name: send slack message
 on:
   issues:
     type: [created]
+    
+  workflow_dispatch:
 
 jobs:
   slack:
