@@ -1,4 +1,4 @@
-name: Upload model to S3
+name: Upload model to DockerHub
 on:
   workflow_dispatch:
   
