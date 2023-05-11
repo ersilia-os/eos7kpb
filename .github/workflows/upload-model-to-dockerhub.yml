@@ -40,7 +40,7 @@ jobs:
           python -m pip install requests
           python place_a_dockerfile_in_current_eos_repo.py $REPO_NAME
           ls
-          cat Dockerfile
+          head -100 Dockerfile
           
       - name: Docker meta
         id: docker_meta
