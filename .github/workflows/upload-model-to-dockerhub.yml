@@ -42,12 +42,10 @@ jobs:
       - name: Docker meta
         id: docker_meta
         uses: docker/metadata-action@v3
-        env:
-          REPO_NAME: ${{ github.event.repository.name }}
         with:
           # list of Docker images to use as base name for tags
           images: |
-            ersiliaos/$REPO_NAME
+            ersiliaos/${{ github.event.repository.name }}
           # Docker tags based on the following events/attributes
           tags: |
             type=schedule
