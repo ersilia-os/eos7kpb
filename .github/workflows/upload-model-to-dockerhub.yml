@@ -39,6 +39,7 @@ jobs:
           ls
           python -m pip install requests
           python place_a_dockerfile_in_current_eos_repo.py $REPO_NAME
+          ls
           cat Dockerfile
           
       - name: Docker meta
