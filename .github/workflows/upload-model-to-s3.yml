@@ -2,6 +2,11 @@ name: Upload model to S3
 on:
   workflow_dispatch:
   
+  workflow_run:
+    workflows: ["Model Test on push"]
+    types:
+      - completed
+  
 jobs:
   test:
     if: github.repository != 'ersilia-os/eos-template'
