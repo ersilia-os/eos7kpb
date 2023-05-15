@@ -2,6 +2,11 @@ name: Upload model to DockerHub
 on:
   workflow_dispatch:
   
+  workflow_run:
+    workflows: ["Model Test on push"]
+    types:
+      - completed
+  
 jobs:
   upload_model_to_dockerhub:
     if: github.repository != 'ersilia-os/eos-template'
