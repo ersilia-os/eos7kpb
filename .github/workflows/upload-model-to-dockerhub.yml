@@ -42,6 +42,14 @@ jobs:
           ls
           head -100 Dockerfile
           
+      - name: Docker Hub Description
+        uses: peter-evans/dockerhub-description@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: ersiliaos/${{ github.event.repository.name }}
+          short-description: "Ersilia Model Hub Identifier: ${{ github.event.repository.name }}"
+          
       - name: Docker meta
         id: docker_meta
         uses: docker/metadata-action@v4
