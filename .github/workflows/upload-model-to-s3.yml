@@ -8,7 +8,7 @@ on:
       - completed
   
 jobs:
-  test:
+  upload_model_to_s3:
     if: github.repository != 'ersilia-os/eos-template'
     runs-on: ubuntu-latest
     steps:
