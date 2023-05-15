@@ -41,6 +41,14 @@ jobs:
           python place_a_dockerfile_in_current_eos_repo.py $REPO_NAME
           ls
           head -100 Dockerfile
+          
+      - name: Docker meta
+        id: docker_meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ersiliaos/${{ github.event.repository.name }}
+          tags: |
+            type=raw,value={{date -u +%Y%m%d%H%M%S}}
                       
       - name: Build and push
         uses: docker/build-push-action@v2
@@ -48,4 +56,5 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ersilia-os/${{ github.event.repository.name }}:latest
+          tags: ersilia-os/${{ github.event.repository.name }}:latest,${{ steps.docker_meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
