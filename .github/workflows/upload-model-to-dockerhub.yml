@@ -64,5 +64,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.docker_meta.outputs.tags }}
-          labels: ${{ steps.docker_meta.outputs.labels }}
+          tags: ersilia-os/${{ github.event.repository.name }}:latest,ersilia-os/${(date -u +%Y%m%d%H%M%S)}
