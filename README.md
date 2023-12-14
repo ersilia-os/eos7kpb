@@ -19,7 +19,7 @@ This panel of models provides predictions for the H3D virtual screening cascade.
 
 ## References
 
-* [Publication](https://www.biorxiv.org/content/10.1101/2022.12.13.520154v1)
+* [Publication](https://www.nature.com/articles/s41467-023-41512-2)
 * [Source Code](https://github.com/ersilia-os/h3d-screening-cascade-models)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
@@ -28,7 +28,7 @@ This panel of models provides predictions for the H3D virtual screening cascade.
 
 ## Citation
 
-If you use this model, please cite the [original authors](https://www.biorxiv.org/content/10.1101/2022.12.13.520154v1) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
+If you use this model, please cite the [original authors](https://www.nature.com/articles/s41467-023-41512-2) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
 
