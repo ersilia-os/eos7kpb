@@ -25,6 +25,7 @@ This panel of models provides predictions for the H3D virtual screening cascade.
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos7kpb)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip)
 
 ## Citation
 
