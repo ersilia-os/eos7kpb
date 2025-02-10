@@ -1,0 +1,29 @@
+name,type,direction,description
+pf_nf54,float,high,Probability of inhibiting Pfalciparum NF54 strain in vitro (IC50 assay 0.1 uM cut-off)
+pf_k1,float,high,Probability of inhibiting Pfalciparum K1 strain in vitro (IC50 assay 0.1 uM cut-off)
+mtb,float,high,Probability of inhibiting Mtuberculosis H37Rv strain in vitro (MIC90 assay 5 uM cut-off)
+cho,float,high,Probability of citotoxicity measured in CHO cells (IC50 assay 10 uM cut-off)
+hepg2,float,high,Probability of citotoxicity measured in HepG2 cells (IC50 assay 10 uM cut-off)
+clint_h,float,high,Probability of being cleared by human microsomes in vitro (cut-off 11.6 ug/min/mg)
+clint_m,float,high,Probability of being cleared by mouse microsomes in vitro (cut-off 11.6 ug/min/mg)
+clint_r,float,high,Probability of being cleared by rat microsomes in vitro (cut-off 11.6 ug/min/mg)
+caco_2,float,high,Probability of being permeable across membranes measured as passive permeability in Caco-2 cells (cut-off 10e-6 cm/s)
+aq_sol,float,high,Probability of being soluble in water at pH = 7.4 (cut-off 90 um)
+cyp2c9,float,high,Probability of inhibiting the CYP2C9 (IC50 assay cut-off 10 uM)
+cyp2c19,float,high,Probability of inhibiting the CYP2C19 (IC50 assay cut-off 10 uM)
+cyp3a4,float,high,Probability of inhibiting the CYP3A4 (IC50 assay cut-off 10 uM)
+cyp2d6,float,high,Probability of inhibiting the CYP2D6 (IC50 assay cut-off 10 uM)
+pf_nf54_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+pf_k1_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+mtb_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+cho_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+hepg2_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+clint_h_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+clint_m_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+clint_r_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+caco_2_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+aq_sol_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+cyp2c9_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+cyp2c19_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+cyp3a4_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
+cyp2d6_norm,float,high,Percentile (0-1) where the molecule is situated for the assay using a ChEMBL dataset of 200k
