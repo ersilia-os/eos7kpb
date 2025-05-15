@@ -44,13 +44,18 @@ _10 of 28 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos7kpb](https://hub.docker.com/r/ersiliaos/eos7kpb)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `117`
 - **Environment Size (Mb):** `1099`
+- **Image Size (Mb):** `1348.7`
 
+**Computational Performance (seconds):**
+- 10 inputs: `37.93`
+- 100 inputs: `28.13`
+- 10000 inputs: `657.74`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/h3d-screening-cascade-models](https://github.com/ersilia-os/h3d-screening-cascade-models)
