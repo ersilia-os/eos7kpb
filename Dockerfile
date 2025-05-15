@@ -6,9 +6,9 @@ RUN conda install -c conda-forge lightgbm=3.3.2
 RUN python -m pip install git+https://github.com/ersilia-os/compound-embedding-lite
 RUN python -m pip install flaml==2.1.2
 RUN python -m pip install xgboost==1.6.1
-RUN pip install numpy==1.23.5
-RUN pip install pandas==2.2.1
+RUN pip install pandas==2.0.3
 RUN pip install scikit-learn==1.2.2
+RUN pip install numpy==1.24.4
 
 WORKDIR /repo
 COPY . /repo
