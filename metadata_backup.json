@@ -22,9 +22,9 @@
     "Interpretation": "The raw scores are the ones emerging from the FLAML model. The ones with a sufix _perc represent the percentile in the scale 0-1 over a ChEMBL dataset of 200k compounds.",
     "Tag": [
         "Malaria",
-        "Plasmodium falciparum",
+        "P.falciparum",
         "Tuberculosis",
-        "Mycobacterium tuberculosis",
+        "M.tuberculosis",
         "ADME",
         "Cytotoxicity",
         "Solubility"
