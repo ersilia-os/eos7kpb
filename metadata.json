@@ -3,23 +3,33 @@
     "Slug": "h3d-virtual-screening-cascade-light",
     "Status": "Ready",
     "Title": "H3D virtual screening cascade light",
-    "Description": "This panel of models provides predictions for the H3D virtual screening cascade. It leverages the Ersilia Compound Embedding and FLAML. The H3D virtual screening cascade contains models for Mycobacterium tuberculosis and Plasmodium falciparum IC50 predictions, as well as ADME, cytotoxicity and solubility assays",
-    "Mode": "In-house",
-    "Task": [
-        "Classification"
-    ],
+    "Description": "This panel of models provides predictions for the H3D virtual screening cascade. It leverages the Ersilia Compound Embedding and FLAML. The H3D virtual screening cascade contains models for Mycobacterium tuberculosis and Plasmodium falciparum IC50 predictions, as well as ADME, cytotoxicity and solubility assays\n",
+    "Source": "Local",
+    "Source Type": "Internal",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
+    "Input Dimension": 1,
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
+    "Biomedical Area": [
+        "ADMET",
+        "Malaria",
+        "Tuberculosis"
+    ],
+    "Target Organism": [
+        "Mycobacterium tuberculosis",
+        "Plasmodium falciparum",
+        "Homo sapiens",
+        "Rat norvegicus",
+        "Mus musculus"
+    ],
     "Output": [
         "Probability"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
-    "Interpretation": "The raw scores are the ones emerging from the FLAML model. The ones with a sufix _perc represent the percentile in the scale 0-1 over a ChEMBL dataset of 200k compounds.",
+    "Output Dimension": 28,
+    "Output Consistency": "Fixed",
+    "Interpretation": "The raw scores are the ones emerging from the FLAML model. The ones with a sufix _norm represent the percentile in the scale 0-1 over a ChEMBL dataset of 200k compounds.",
     "Tag": [
         "Malaria",
         "P.falciparum",
@@ -30,11 +40,18 @@
         "Solubility"
     ],
     "Publication": "https://www.nature.com/articles/s41467-023-41512-2",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2023,
     "Source Code": "https://github.com/ersilia-os/h3d-screening-cascade-models",
-    "License": "GPL-3.0",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip",
+    "License": "GPL-3.0-or-later",
+    "Contributor": "miquelduranfrigola",
+    "Incorporation Date": "2023-05-09",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos7kpb",
     "Docker Architecture": [
         "AMD64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip",
+    "Deployment": [
+        "Local"
     ]
 }
