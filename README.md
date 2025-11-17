@@ -4,6 +4,7 @@ This panel of models provides predictions for the H3D virtual screening cascade.
 
 This model was incorporated on 2023-05-09.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos7kpb`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-05-09.
 - **Task:** `Annotation`
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `ADMET`, `Malaria`, `Tuberculosis`
-- **Target Organism:** `Mycobacterium tuberculosis`, `Plasmodium falciparum`, `Homo sapiens`, `Rat norvegicus`, `Mus musculus`
+- **Target Organism:** `Mycobacterium tuberculosis`, `Plasmodium falciparum`, `Homo sapiens`, `Rattus norvegicus`, `Mus musculus`
 - **Tags:** `Malaria`, `P.falciparum`, `Tuberculosis`, `M.tuberculosis`, `ADME`, `Cytotoxicity`, `Solubility`
 
 ### Input
