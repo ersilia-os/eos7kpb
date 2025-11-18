@@ -2,8 +2,7 @@
 
 This panel of models provides predictions for the H3D virtual screening cascade. It leverages the Ersilia Compound Embedding and FLAML. The H3D virtual screening cascade contains models for Mycobacterium tuberculosis and Plasmodium falciparum IC50 predictions, as well as ADME, cytotoxicity and solubility assays
 
-This model was incorporated on 2023-05-09.
-
+This model was incorporated on 2023-05-09.Last packaged on 2025-11-18.
 
 ## Information
 ### Identifiers
@@ -51,12 +50,12 @@ _10 of 28 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `117`
 - **Environment Size (Mb):** `1115`
-- **Image Size (Mb):** `1348.7`
+- **Image Size (Mb):** `1351.98`
 
 **Computational Performance (seconds):**
-- 10 inputs: `37.93`
-- 100 inputs: `28.13`
-- 10000 inputs: `657.74`
+- 10 inputs: `30.03`
+- 100 inputs: `19.87`
+- 10000 inputs: `181.16`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/h3d-screening-cascade-models](https://github.com/ersilia-os/h3d-screening-cascade-models)
