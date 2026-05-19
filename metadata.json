@@ -22,10 +22,7 @@
     "Output Consistency": "Fixed",
     "Interpretation": "The raw scores are the ones emerging from the FLAML model. The ones with a sufix _norm represent the percentile in the scale 0-1 over a ChEMBL dataset of 200k compounds.",
     "Tag": [
-        "Malaria",
-        "P.falciparum",
-        "Tuberculosis",
-        "M.tuberculosis",
+        "Antimicrobial activity",
         "ADME",
         "Cytotoxicity",
         "Solubility"
