@@ -14,7 +14,7 @@ This model was incorporated on 2023-05-09.Last packaged on 2025-11-18.
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `ADMET`, `Malaria`, `Tuberculosis`
 - **Target Organism:** `Mycobacterium tuberculosis`, `Plasmodium falciparum`, `Homo sapiens`, `Rattus norvegicus`, `Mus musculus`
-- **Tags:** `Malaria`, `P.falciparum`, `Tuberculosis`, `M.tuberculosis`, `ADME`, `Cytotoxicity`, `Solubility`
+- **Tags:** `Antimicrobial activity`, `ADME`, `Cytotoxicity`, `Solubility`
 
 ### Input
 - **Input:** `Compound`
