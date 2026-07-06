@@ -9,6 +9,7 @@ RUN python -m pip install lightgbm==3.3.2
 RUN python -m pip install eosce==0.2.0
 RUN python -m pip install numpy==1.26.4
 RUN conda install -c conda-forge libgomp=15.2.0
+RUN python -m pip install setuptools==69.5.1
 
 WORKDIR /repo
 COPY . /repo
