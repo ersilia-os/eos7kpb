@@ -1,13 +1,13 @@
 # H3D virtual screening cascade light
 
-This panel of models provides predictions for the H3D virtual screening cascade. It leverages the Ersilia Compound Embedding and FLAML. The H3D virtual screening cascade contains models for Mycobacterium tuberculosis and Plasmodium falciparum IC50 predictions, as well as ADME, cytotoxicity and solubility assays
+Profiles compounds against the decision-making assays behind the H3D Centre's malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis alongside cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was assembled with ZairaChem over a decade of in-house screening data at the University of Cape Town. This lighter reimplementation substitutes FLAML models over Ersilia Compound Embeddings, trading some accuracy for much lower computational cost.
 
 This model was incorporated on 2023-05-09.Last packaged on 2026-07-06.
 
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos7kpb`
-- **Slug:** `h3d-virtual-screening-cascade-light`
+- **Slug:** `h3d-virtual-screening-cascade`
 
 ### Domain
 - **Task:** `Annotation`
@@ -23,7 +23,7 @@ This model was incorporated on 2023-05-09.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `28`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** The raw scores are the ones emerging from the FLAML model. The ones with a sufix _norm represent the percentile in the scale 0-1 over a ChEMBL dataset of 200k compounds.
+- **Interpretation:** Probabilities of activity in each H3D cascade assay, with percentile-normalised counterparts against a ChEMBL reference set.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
