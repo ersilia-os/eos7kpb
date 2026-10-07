@@ -1,6 +1,6 @@
 # H3D virtual screening cascade light
 
-Profiles compounds against the decision-making assays behind the H3D Centre's malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis alongside cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was assembled with ZairaChem over a decade of in-house screening data at the University of Cape Town. This lighter reimplementation substitutes FLAML models over Ersilia Compound Embeddings, trading some accuracy for much lower computational cost.
+Profiles compounds against the assays that drive the H3D Centre's malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis plus cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was built with ZairaChem from a decade of in-house screening data at the University of Cape Town. This lighter reimplementation fits FLAML models over Ersilia Compound Embeddings and retains more than 95% of the full pipeline's reported performance at far lower computational cost.
 
 This model was incorporated on 2023-05-09.Last packaged on 2026-07-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-05-09.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `28`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probabilities of activity in each H3D cascade assay, with percentile-normalised counterparts against a ChEMBL reference set.
+- **Interpretation:** Probabilities of activity in fourteen H3D cascade assays, with percentiles against a 200,000-molecule ChEMBL reference set.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
