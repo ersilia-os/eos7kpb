@@ -3,7 +3,7 @@
     "Slug": "h3d-virtual-screening-cascade",
     "Status": "Ready",
     "Title": "H3D virtual screening cascade light",
-    "Description": "Profiles compounds against the assays that drive the H3D Centre's malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis plus cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was built with ZairaChem from a decade of in-house screening data at the University of Cape Town. This lighter reimplementation fits FLAML models over Ersilia Compound Embeddings and retains more than 95% of the full pipeline's reported performance at far lower computational cost.",
+    "Description": "Profiles compounds against the assays that drive the H3D Centres malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis plus cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was built with ZairaChem from a decade of in-house screening data at the University of Cape Town. This lighter reimplementation fits FLAML models over Ersilia Compound Embeddings and retains more than 95% of the full pipelines reported performance at far lower computational cost.",
     "Deployment": [
         "Local"
     ],
@@ -47,7 +47,7 @@
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2023-05-09",
     "Last Packaging Date": "2026-07-06",
-    "Release": "v1.0.0",
+    "Release": "v1.1.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos7kpb",
     "Docker Architecture": [
