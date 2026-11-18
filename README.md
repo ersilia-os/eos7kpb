@@ -1,8 +1,9 @@
 # H3D virtual screening cascade light
 
-Profiles compounds against the assays that drive the H3D Centre's malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis plus cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was built with ZairaChem from a decade of in-house screening data at the University of Cape Town. This lighter reimplementation fits FLAML models over Ersilia Compound Embeddings and retains more than 95% of the full pipeline's reported performance at far lower computational cost.
+Profiles compounds against the assays that drive the H3D Centres malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis plus cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was built with ZairaChem from a decade of in-house screening data at the University of Cape Town. This lighter reimplementation fits FLAML models over Ersilia Compound Embeddings and retains more than 95% of the full pipelines reported performance at far lower computational cost.
 
-This model was incorporated on 2023-05-09.Last packaged on 2026-07-06.
+This model was incorporated on 2023-05-09.
+Last packaged on 2026-07-06.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 28 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos7kpb](https://hub.docker.com/r/ersiliaos/eos7kpb)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7kpb.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos7kpb_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos7kpb_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `117`
