@@ -3,7 +3,7 @@
 Profiles compounds against the assays that drive the H3D Centres malaria and tuberculosis programmes, covering whole-cell activity against Plasmodium falciparum and Mycobacterium tuberculosis plus cytotoxicity, solubility, permeability, microsomal stability and cytochrome inhibition. The original cascade was built with ZairaChem from a decade of in-house screening data at the University of Cape Town. This lighter reimplementation fits FLAML models over Ersilia Compound Embeddings and retains more than 95% of the full pipelines reported performance at far lower computational cost.
 
 This model was incorporated on 2023-05-09.
-Last packaged on 2026-07-06.
+Last packaged on 2026-11-24.
 
 ## Information
 ### Identifiers
@@ -52,12 +52,12 @@ _10 of 28 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `117`
 - **Environment Size (Mb):** `1119`
-- **Image Size (Mb):** `1365.45`
+- **Image Size (Mb):** `602.25`
 
 **Computational Performance (seconds):**
-- 10 inputs: `33.07`
-- 100 inputs: `24.38`
-- 10000 inputs: `190.44`
+- 10 inputs: `33.11`
+- 100 inputs: `18.37`
+- 10000 inputs: `124.55`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/h3d-screening-cascade-models](https://github.com/ersilia-os/h3d-screening-cascade-models)
