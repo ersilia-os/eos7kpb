@@ -49,6 +49,14 @@ model_keys = [
     "cyp_all_cyp2d6",
 ]
 
+# ExtraTrees with n_jobs > 1 adds up tree probabilities in thread-completion order, so float64
+# outputs change in the last digits between runs. One thread keeps the output fixed.
+def single_thread_forest(model):
+    inner = getattr(getattr(model, "model", None), "estimator", None)
+    if type(inner).__name__ == "ExtraTreesClassifier":
+        inner.n_jobs = 1
+    return model
+
 # load models function
 def load_models():
     models = {}
@@ -56,7 +64,7 @@ def load_models():
     for fn in os.listdir(models_dir):
         mn = fn.split(".joblib")[0]
         if mn in model_names:
-            models[mn] = joblib.load(os.path.join(models_dir, fn))
+            models[mn] = single_thread_forest(joblib.load(os.path.join(models_dir, fn)))
     return models
 
 # load scaler function
